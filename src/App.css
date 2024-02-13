@@ -1,0 +1,122 @@
+#root {
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+  overflow: auto;
+}
+
+.logo {
+  height: 6em;
+  padding: 1.5em;
+  will-change: filter;
+  transition: filter 300ms;
+}
+.logo:hover {
+  filter: drop-shadow(0 0 2em #646cffaa);
+}
+.logo.react:hover {
+  filter: drop-shadow(0 0 2em #61dafbaa);
+}
+
+@keyframes logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  a:nth-of-type(2) .logo {
+    animation: logo-spin infinite 20s linear;
+  }
+}
+
+.card {
+  padding: 2em;
+}
+
+.read-the-docs {
+  color: #888;
+}
+
+
+.container{
+  display: flex;
+  justify-content: space-evenly;
+  align-items: flex-start;
+  margin: auto;
+  position: relative;
+}
+
+.mini-container{
+  display: flexbox;
+  justify-content: space-evenly;
+  flex-direction: column;
+  margin: 50px;
+  padding: 25px;
+  background-color: rgb(145, 146, 142);
+  border-radius: 20px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+#correct {
+  color: rgb(19, 107, 19);
+}
+#wrong {
+  color: rgb(122, 0, 0);
+}
+
+
+.answer-space{
+  background-color: rgb(213, 218, 202);
+  color: rgb(93, 94, 79);
+  padding: auto;
+  font-weight: 700;
+  margin: 4px;
+  justify-content: center;
+  border-radius: 5px;
+  width:auto;
+  height: auto;
+  clear: both;
+}
+
+li{
+  list-style: none;
+}
+
+.button{
+  margin: 2px;
+  color: rgb(93, 94, 79);
+}
+
+.drink-container{
+  align-items: center;
+  background-color: rgb(213, 218, 202);
+  border-radius: 12px;
+  color:rgb(93, 94, 79);
+  padding: 3px;
+  margin-top: 20px;
+}
+
+button.newdrink {
+  width:auto;
+  text-align: center;
+}
+
+.title{
+  margin-bottom: 50px;
+}
+
+.title-container {
+  text-align: center;
+}
+
+.mini-header{
+  align-items: center;
+}
+
+
+
+
